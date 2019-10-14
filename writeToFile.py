@@ -4,7 +4,7 @@ import os
 counter = 0
 filePath = "./"
 
-for i in range(0,10):
+for i in range(0,20):
     filePath = filePath + "mirrorInTheBathroom" + str(i) + "/"
 
 if not os.path.exists(filePath):
